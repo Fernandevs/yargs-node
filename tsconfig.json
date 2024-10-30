@@ -119,5 +119,5 @@
     "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
   },
   "include": ["process.env.d.ts", "./**/*.ts"],
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules", "dist", "src/**/*.test.ts"]
 }
