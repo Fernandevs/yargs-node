@@ -1,5 +1,5 @@
 import { existsSync, mkdirSync, writeFileSync } from "node:fs";
-import { argv } from "./config/plugins/args.adapter";
+import { argv } from "./config/plugins/yargs.adapter";
 
 const dir = "outputs/";
 const { b: base, l: limit, s: showTable } = argv;

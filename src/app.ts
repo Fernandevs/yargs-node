@@ -1,4 +1,4 @@
-import { argv } from "./config/plugins/args.adapter";
+import { argv } from "./config/plugins/yargs.adapter";
 import { Server } from "./presentation/server";
 
 (async () => {
